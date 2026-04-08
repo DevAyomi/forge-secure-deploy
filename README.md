@@ -58,7 +58,7 @@ foundryup
 If you want to use this as a package in another Foundry repo:
 
 ```bash
-forge install <your-org-or-repo>/forge-secure-deploy
+forge install DevAyomi/forge-secure-deploy
 ```
 
 **Note:** If your project relies on a `remappings.txt` file instead of Foundry's default path inference, make sure to add the following line to it:
