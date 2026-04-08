@@ -21,10 +21,10 @@ forge-secure-deploy/=lib/forge-secure-deploy/
 ## Quick Start
 
 ### 1. Configuration
-Run the interactive setup script to automatically generate your `deploy.toml` configuration:
+Run the setup wizard to securely import your wallets and automatically generate your `deploy.toml` configuration:
 
 ```bash
-sh lib/forge-secure-deploy/init.sh
+./lib/forge-secure-deploy/secure-setup.sh
 ```
 
 *(Note: Never store private keys in `deploy.toml`. Use [Foundry Keystores](https://book.getfoundry.sh/reference/cast/cast-wallet-import).)*
