@@ -21,24 +21,10 @@ forge-secure-deploy/=lib/forge-secure-deploy/
 ## Quick Start
 
 ### 1. Configuration
-Copy the template to your root directory:
+Run the interactive setup script to automatically generate your `deploy.toml` configuration:
+
 ```bash
-cp lib/forge-secure-deploy/deploy.toml.example deploy.toml
-```
-
-Update `deploy.toml` with your network RPCs, keystore accounts, and deployer addresses:
-```toml
-[accounts]
-local   = "anvil"
-sepolia = "myWallet"
-
-[addresses]
-local   = "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266"
-sepolia = "0xYOUR_SEPOLIA_DEPLOYER_ADDRESS"
-
-[rpc]
-local   = "http://127.0.0.1:8545"
-sepolia = "${SEPOLIA_RPC_URL}"
+sh lib/forge-secure-deploy/init.sh
 ```
 
 *(Note: Never store private keys in `deploy.toml`. Use [Foundry Keystores](https://book.getfoundry.sh/reference/cast/cast-wallet-import).)*
