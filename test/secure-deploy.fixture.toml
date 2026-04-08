@@ -1,0 +1,11 @@
+[accounts]
+sepolia = "hotWallet"
+mainnet = "coldWallet"
+
+[addresses]
+sepolia = "0x1000000000000000000000000000000000000001"
+mainnet = "0x2000000000000000000000000000000000000002"
+
+[rpc]
+sepolia = "https://sepolia.example"
+mainnet = "https://mainnet.example"

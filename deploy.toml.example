@@ -1,0 +1,30 @@
+# deploy.toml.example
+# Copy to deploy.toml and fill in your values
+# This file is SAFE to commit — no secrets here
+
+[accounts]
+local        = "anvil"
+sepolia      = "myWallet"
+mainnet      = "coldWallet"
+polygon      = "myWallet"
+arbitrum     = "myWallet"
+base         = "myWallet"
+base_sepolia = "myWallet"
+
+[addresses]
+local        = "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266"
+sepolia      = "0xYOUR_SEPOLIA_DEPLOYER_ADDRESS"
+mainnet      = "0xYOUR_MAINNET_DEPLOYER_ADDRESS"
+polygon      = "0xYOUR_POLYGON_DEPLOYER_ADDRESS"
+arbitrum     = "0xYOUR_ARBITRUM_DEPLOYER_ADDRESS"
+base         = "0xYOUR_BASE_DEPLOYER_ADDRESS"
+base_sepolia = "0xYOUR_BASE_SEPOLIA_DEPLOYER_ADDRESS"
+
+[rpc]
+local        = "http://127.0.0.1:8545"
+sepolia      = "${SEPOLIA_RPC_URL}"
+mainnet      = "${MAINNET_RPC_URL}"
+polygon      = "${POLYGON_RPC_URL}"
+arbitrum     = "${ARBITRUM_RPC_URL}"
+base         = "${BASE_RPC_URL}"
+base_sepolia = "${BASE_SEPOLIA_RPC_URL}"

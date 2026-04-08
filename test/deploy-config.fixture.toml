@@ -1,0 +1,23 @@
+[accounts]
+sepolia = "hotWallet"
+mainnet = "coldWallet"
+polygon = "polygonWallet"
+arbitrum = "arbWallet"
+base = "baseWallet"
+base_sepolia = "baseSepoliaWallet"
+
+[addresses]
+sepolia = "0x1000000000000000000000000000000000000001"
+mainnet = "0x2000000000000000000000000000000000000002"
+polygon = "0x3000000000000000000000000000000000000003"
+arbitrum = "0x4000000000000000000000000000000000000004"
+base = "0x5000000000000000000000000000000000000005"
+base_sepolia = "0x6000000000000000000000000000000000000006"
+
+[rpc]
+sepolia = "https://sepolia.example"
+mainnet = "https://mainnet.example"
+polygon = "https://polygon.example"
+arbitrum = "https://arbitrum.example"
+base = "https://base.example"
+base_sepolia = "https://base-sepolia.example"
